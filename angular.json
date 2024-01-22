@@ -9,7 +9,7 @@
         "@schematics/angular:application": {
           "strict": true
         }
-  "lint": {
+      "lint": {
         "builder": "@angular-eslint/builder:lint",
         "options": {}
       }
