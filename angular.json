@@ -9,14 +9,13 @@
         "@schematics/angular:application": {
           "strict": true
         }
-        "lint": {
-        "builder": "@angular-eslint/builder:lint",
-        "options": {}
-        }
       }
     }
-  
-      },
+  }
+   "lint": {
+        "builder": "@angular-eslint/builder:lint",
+        "options": {}
+   },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
