@@ -21,7 +21,7 @@ jobs:
           npm install
           npm install -g @angular/cli
       - name: Run Angular lint
-        run: npm run lint
+        run: npm run lint src/**/*.ts
 
       - name: Run Angular tests
         run: npm run test
