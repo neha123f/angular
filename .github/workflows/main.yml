@@ -22,6 +22,6 @@ jobs:
           npm install -g @angular/cli
       - name: Run Angular lint
         continue-on-error: true
-        run: ng lint 
+        run: ng lint  | grep -E '^ERROR:'" 
       - name: test
         run: ng test
